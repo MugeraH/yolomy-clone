@@ -16,9 +16,9 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
+     <header>
       <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg  bg-transaprent pe-5">
+        <nav class="navbar navbar-expand-lg bg-transaprent pe-5">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">Yolomy</a>
             <button
@@ -33,7 +33,7 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav ms-auto p-1 ">
+              <ul class="navbar-nav ms-auto p-1">
                 <li class="nav-item pe-3">
                   <a class="nav-link active" aria-current="page" href="#"
                     >Home</a
@@ -47,7 +47,6 @@
                     <i class="fa fa-shopping-cart fa-1x"></i>
                   </a>
                 </li>
-              
               </ul>
             </div>
           </div>
@@ -55,7 +54,7 @@
 
         <div class="container text-center">
           <div class="row">
-            <div class="col-md-12 ">
+            <div class="col-md-12">
               <h3>Our clothing, your comfort</h3>
               <p>
                 We understand that you need to look good and feel great <br />
@@ -72,58 +71,73 @@
     </header>
 
     <div class="section-1 container-fluid p-5">
-      <div class="p-5 d-flex flex-md-row flex-wrap ">
+      <div class="p-5 d-flex flex-md-row flex-wrap">
         <div class="form-check ps-5">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
-          <label class="form-check-label" for="flexCheckDefault">
-            Men
-          </label>
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault"
+            checked
+          />
+          <label class="form-check-label" for="flexCheckDefault"> Men </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-          <label class="form-check-label" for="flexCheckChecked">
-          Women
-          </label>
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckChecked"
+            checked
+          />
+          <label class="form-check-label" for="flexCheckChecked"> Women </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckChecked"
+          />
           <label class="form-check-label" for="flexCheckChecked">
-          Children
+            Children
           </label>
         </div>
-    
 
-        <button class="btn ms-auto me-5 p-3 text-center">SEE ALL PRODUCTS</button>
+        <button class="btn ms-auto me-5 p-3 text-center">
+          SEE ALL PRODUCTS
+        </button>
       </div>
-    </div>
+    </div> 
 
     <div class="section-2 container-fluid">
-      <div class="container-fluid">
-        <div class="category-title">
-          <h1>MEN</h1>
-          <span class="line">
-            <hr />
-          </span>
+      <div class="row m-5">
+        <div class="col-md-1 m-0">
+          <h2>MEN</h2>
+        </div>
+        <div class="col-md-11">
+          <hr />
         </div>
       </div>
 
-      <div class="container m-5">
+      <div class=" p-4 m-5">
+        <h6>1/5</h6>
         <button
-          class="bg-secondary"
+          class=""
           type="button"
           data-bs-target="#carouselExampleControls"
           data-bs-slide="prev"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <i class="fa fa-chevron-left"></i>
           <span class="visually-hidden">Previous</span>
         </button>
         <button
-          class="bg-secondary"
+          class=""
           type="button"
           data-bs-target="#carouselExampleControls"
           data-bs-slide="next"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <i class="fa fa-chevron-right"></i>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
@@ -180,33 +194,35 @@
           </div>
         </div>
 
-        <div class="container-fluid">
-          <div class="category-title">
-            <h1>Women</h1>
-            <span class="line">
-              <hr />
-            </span>
+        <div class="row m-5">
+          <div class="col-md-11">
+            <hr />
+          </div>
+          <div class="col-md-1 m-0">
+            <h2>WOMEN</h2>
           </div>
         </div>
 
-        <div class="container m-5">
+        <div class="p-4 m-5">
+          <h6>1/5</h6>
           <button
-            class="bg-secondary"
-            type="button"
-            data-bs-target="#carouselExampleControls1"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="bg-secondary"
+            class=""
             type="button"
             data-bs-target="#carouselExampleControls1"
             data-bs-slide="next"
           >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <i class="fa fa-chevron-left"></i>
+
             <span class="visually-hidden">Next</span>
+          </button>
+          <button
+            class=""
+            type="button"
+            data-bs-target="#carouselExampleControls1"
+            data-bs-slide="prev"
+          >
+            <i class="fa fa-chevron-right"></i>
+            <span class="visually-hidden">Previous</span>
           </button>
         </div>
         <div
@@ -263,47 +279,69 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="section-3 container-fluid">
-      <div class="about">
-        <div class="content">
-          <h1>ABOUT US</h1>
+    </div> 
+    <div class="section-3 container-fluid mt-5 p-5 text-center">
+      <div class="about ">
+        <div class="content p-5">
+          <h2>ABOUT US</h2>
           <p class="m-0">
-            This is where high-fashion clothing is designed and crafted from the
-            heart by an amazing team of craftsmen and designers who understand
+            This is where high-fashion clothing is <br> designed and crafted from the
+            heart by <br> an amazing team of craftsmen and <br> designers who understand
             what fashion is
           </p>
         </div>
       </div>
-    
     </div>
-    <div class=" container-fluid section-4 mb-0">
-      <div>icon</div>
-    
+    <div class="section-4 container-fluid p-4">
+      <div>
+    <img src="./assets/social_icons/twitter_bird.png" alt="">
+      </div>
+
       <p class="m-0">
-        "SALE: Buy anything for 45% off.Use the promo CODE YOLOMY45 when you
-        buy items"
+        "SALE: Buy anything for 45% off.Use the promo CODE YOLOMY45 when you buy
+        items"
       </p>
     </div>
-
-    <footer class="  p-5 mt-0">
+  
+    <footer class="p-5 mt-0">
       <div class="row">
-        <div class="col-md-4">
-          <h1>YOLOMY</h1>
+        <div class="name col-md-4">
+          <h2>YOLOMY</h2>
           <p>
             WE ARE YOLOMY-WE UNDERSTAND <br />
             FASHION AND STYLE. WE CRAFT OUR <br />
             PRODUCTS WITH LOVE AND DELIGENCE
           </p>
         </div>
-        <div class="col-md-4">
-          <h1>We are social</h1>
-          <div class="icons">icons</div>
+        <div class="social col-md-4 text-center">
+          <h3>We are social</h3>
+          <div class="icons">
+            <div class="pt-1">
+              <img src="./assets/social_icons/g_plus.png" alt="" />
+              <img src="./assets/social_icons/facebook.png" alt="" />
+              <img src="./assets/social_icons/you_tube.png" alt="" />
+              <img src="./assets/social_icons/stumble_upon.png" alt="" />
+            </div>
+
+            <div class="pt-4 pb-5">
+              <img src="./assets/social_icons/skype.png" alt="" />
+              <img src="./assets/social_icons/flickr.png" alt="" class="" />
+              <img src="./assets/social_icons/twitter.png" alt="" />
+              <img src="./assets/social_icons/pinterest.png" alt="" />
+              
+            </div>
+          </div>
           <div class="copyright">COPYRIGHT 2020. YOLOMY INC</div>
         </div>
-        <div class="col-md-4">
-          <p>CREDITS|PRIVACY|ABOUT|CONTACT</p>
-          <h2>Yolomy:We Mean Fashion</h2>
+        <div class="credits col-md-4 text-center ">
+          <p>
+          <span>CREDITS </span>
+          <span>PRIVACY</span>
+          <span>ABOUT </span>
+          <span>CONTACT </span>
+        </p>
+        
+          <h3>Yolomy:We Mean Fashion</h3>
         </div>
       </div>
     </footer>
